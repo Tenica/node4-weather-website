@@ -1,4 +1,3 @@
-console.log('Hello world in node')
 
 fetch('http://puzzle.mead.io/puzzle').then( (response) => {
 response.json().then((data) => {
